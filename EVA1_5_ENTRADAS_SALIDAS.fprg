@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-08 08:11:07 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzIxOzIwMjMtMDktMDg7MDc6NTk6NTIgcC4gbS47Mjg0OQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzIxOzIwMjMtMDktMDg7MDg6MTE6MDcgcC4gbS47MTsyOTQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="marca" type="String" array="False" size=""/>
+            <declare name="modelo" type="String" array="False" size=""/>
+            <declare name="a&#241;o" type="Integer" array="False" size=""/>
+            <declare name="precio" type="Real" array="False" size=""/>
+            <output expression="&quot;Introduce la marca de tu veh&#237;culo&quot;" newline="True"/>
+            <input variable="marca"/>
+            <output expression="&quot;Introduce el modelo de tu veh&#237;culo&quot;" newline="True"/>
+            <input variable="modelo"/>
+            <output expression="&quot;Introduce el a&#241;o de tu veh&#237;culo&quot;" newline="True"/>
+            <input variable="a&#241;o"/>
+            <output expression="&quot;Introduce el precio de tu veh&#237;culo&quot;" newline="True"/>
+            <input variable="precio"/>
+            <output expression="&quot;La marca de tu auto es...&quot;" newline="True"/>
+            <output expression="marca" newline="True"/>
+            <output expression="&quot;El modelo de tu auto es...&quot;" newline="True"/>
+            <output expression="modelo" newline="True"/>
+            <output expression="&quot;El a&#241;o de tu auto es...&quot;" newline="True"/>
+            <output expression="a&#241;o" newline="True"/>
+            <output expression="&quot;El precio de tu auto es...&quot;" newline="True"/>
+            <output expression="precio" newline="True"/>
+            <output expression="&quot;Gracias por guardar tu informaci&#243;n :)&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
